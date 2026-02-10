@@ -1,0 +1,52 @@
+# Sensitive files (NEVER commit)
+*.enc
+.credentials-info.md
+.tony-*
+.wallet-*
+.email-*
+.session-hotspots.json
+
+# Memory files (user-specific)
+MEMORY.md
+memory/*.md
+!memory/.gitkeep
+
+# Workspace files (NEVER commit)
+USER.md
+AGENTS.md
+SOUL.md
+TOOLS.md
+LESSONS.md
+HEARTBEAT.md
+IDENTITY.md
+tony-daily-memo-*.md
+*-daily-memo-*.md
+task-*.md
+workflow-*.md
+
+# Node modules
+node_modules/
+package-lock.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment variables
+.env
+.env.local
+
+# Backup and temp files
+*.bak
+*.tmp
+*~
